@@ -1,0 +1,49 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.nav-button-text {
+	opacity: 0;
+	transition: 0.25s;
+}
+
+.nav-button {
+	transition: 0.25s;
+	background-color: #0562bb;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+	display: flex;
+	gap: 6px;
+	align-items: center;
+}
+
+.nav-button:hover > .nav-button-text {
+	opacity: 1;
+}
+
+.nav-button:hover {
+	width: 165px;
+}
+
+.nav-button-icon > * {
+	height: 100%;
+	vertical-align: middle;
+}
