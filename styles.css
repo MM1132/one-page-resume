@@ -47,3 +47,33 @@ nav {
 	height: 100%;
 	vertical-align: middle;
 }
+
+section {
+	display: flex;
+	text-align: center;
+}
+
+hr {
+	border: 100px solid black;
+	margin: 0;
+}
+
+h2 {
+	text-align: center;
+}
+
+.front_pic {
+	height: 100vh;
+	text-align: center;
+	display: block;
+}
+
+.left {
+	position: relative;
+	left: 10vh;
+}
+
+.right {
+	position: relative;
+	left: 60vh;
+}
