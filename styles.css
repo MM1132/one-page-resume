@@ -53,9 +53,10 @@ section {
 	text-align: center;
 }
 
-hr {
-	border: 100px solid black;
-	margin: 0;
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
 
 h2 {
@@ -64,16 +65,27 @@ h2 {
 
 .front_pic {
 	height: 100vh;
-	text-align: center;
-	display: block;
+	background-image: url("assets/Sunset.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	background-attachment: fixed;
 }
 
-.left {
-	position: relative;
-	left: 10vh;
+section {
+	display: flex;
+	justify-content: space-around;
 }
 
-.right {
-	position: relative;
-	left: 60vh;
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#introduction-section img {
+	width: 100%;
 }
